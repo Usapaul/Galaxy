@@ -2,15 +2,11 @@
 # -*- coding: utf-8 -*-
 
 import regions 
-import sys
-
-# Получаемые аргументы: имя изображения без расширения
-image=sys.argv[1]
 
 # xell хранит значение параметра эллиптичности.
 # Объекты с ellipticity<xell не интересуют/не сохраняются
-xell=0.60
-catalog=open(image+'field.cat','r')
+xell=0.70
+catalog=open('catalog.cat','r')
 # p хранит имена параметров(X, Y, A, B, APER и т.д.)
 p=[]
 # data хранит значения параметров для каждого объекта 
@@ -83,7 +79,7 @@ if len(data)==0:
 xcol=int(p.index('X_IMAGE'))-1
 ycol=int(p.index('Y_IMAGE'))-1
 elcol=int(p.index('ELLIPTICITY'))-1
-regions.create_regions(data,xcol,ycol,elcol,file=image+'r',red=False)
+regions.create_regions(data,xcol,ycol,elcol,red=False)
 
 # Если у меня в каталоге есть WIN параметры, то я могу через них высчитать
 # параметр эллиптичности и сравнить его со значением ELLIPTICITY.
@@ -102,6 +98,5 @@ if 'AWIN_IMAGE' in p and 'BWIN_IMAGE' in p:
 			# вместо эллиптичности указана разность el-elWIN
 			lparam[elcol]=delta_e
 			data_dell[i]=tuple(lparam)
-	fileimage=image+'rred'
-	regions.create_regions(data_dell,xcol,ycol,elcol,file=fileimage,red=True)
+	regions.create_regions(data_dell,xcol,ycol,elcol,red=True)
 
