@@ -6,6 +6,19 @@ import os
 import funcs
 
 image = sys.argv[1]
+# Если bound == 1, то надо исключать объекты, которые находятся
+# в рамке-полосе на границы изображения, и по существу состоят л
+# лишь из шума
+boundxy = []
+boundfire = False
+if len(sys.argv) > 2:
+	if sys.argv[2] == 1:
+		boundfire = True
+		boundxy[0] = (583,1259)
+		boundxy[1] = (1124,8133)
+		boundxy[2] = (7997,7029)
+		boundxy[3] = (7640,290)
+		funcs.whatabound(boundxy)
 
 os.system('python3 readcat.py '+image)
 
@@ -48,6 +61,15 @@ for line in regionsfile:
 	new_point = True
 	for i in catlg.keys():
 		print(line[1],line[2],i[0],i[1],True)
+		# Если нужно исключать объекты на границе, то 
+		# boundfire должно иметь значение True, присвоенное
+		# переменной еще в начале программы на стадии обработки
+		# аргументов командной строки. А тогда check_bound
+		# будет, собственно, проверять, попадает ли объект в 
+		# "разрешенные" границы изображения, или нет.
+		if boundfire == True:
+			if not funcs.check_bound(line[1],line[2],boundxy):
+				break
 		if funcs.check_point(line[1],line[2],i[0],i[1],3):
 			new_point = False
 			break
