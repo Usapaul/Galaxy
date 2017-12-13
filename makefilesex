@@ -1,0 +1,12 @@
+# Для работы с Sextractor
+image=f160
+run=sex
+default=default
+alldefault=$(default).sex $(default).param $(default).nnw $(default).conv $(default).psf
+
+
+$(image)field.cat $(image)aper.fits : $(image).fits $(alldefault)
+	$(run) $(image).fits \
+	-CHECKIMAGE_TYPE APERTURES \
+	-CHECKIMAGE_NAME $(image)aper.fits \
+	-CATALOG_NAME $(image)field.cat
