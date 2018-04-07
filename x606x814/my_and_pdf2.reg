@@ -1,0 +1,98 @@
+# Region file format: DS9 version 4.1
+global color=green dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
+fk5
+circle(3:32:46.927,-27:47:01.49,0.69") # color=red width=2 text={1 ok}
+circle(3:32:44.764,-27:47:08.99,0.69") # color=red width=2 text={2 ok}
+circle(3:32:44.682,-27:47:54.55,0.69") # color=red width=2 text={3 ok}
+circle(3:32:43.184,-27:48:42.27,0.690001") # width=2 text={4-2 ok}
+circle(3:32:41.888,-27:46:51.25,0.690001") # width=2 text={5-3 ok}
+circle(3:32:41.083,-27:48:52.96,0.690001") # width=2 text={6-4 ok}
+circle(3:32:40.786,-27:49:04.36,0.690001") # width=2 text={7-5 ok}
+circle(3:32:40.301,-27:47:11.37,0.69") # color=red width=2 text={8 ok}
+circle(3:32:39.945,-27:48:06.60,0.690001") # width=2 text={9-6 ok}
+circle(3:32:37.800,-27:46:35.15,0.69") # color=red width=2 text={10 ok}
+circle(3:32:37.734,-27:47:06.97,0.690001") # width=2 text={11-7 ok}
+circle(3:32:36.903,-27:45:49.55,0.690001") # width=2 text={12-8 ok}
+circle(3:32:36.206,-27:46:57.04,0.690001") # width=2 text={13x9 ok}
+circle(3:32:32.739,-27:47:43.90,0.69") # color=red width=2 text={14 ok}
+circle(3:32:47.508,-27:47:49.21,0.69") # color=red width=2 text={15 ok blended}
+circle(3:32:44.773,-27:46:54.98,0.690001") # width=2 text={16-11 ok but spiral signs maybe small i}
+circle(3:32:39.700,-27:47:57.95,0.69") # color=red width=2 text={17 ok but just too small to make spiral signs to noticeable spiral arms}
+circle(3:32:46.015,-27:47:06.39,0.690001") # width=2 text={18-12 90 small i}
+circle(3:32:44.350,-27:46:38.82,0.690001") # width=2 text={19-13 90 small i and noticeable spirals or irr dust plane}
+circle(3:32:41.509,-27:46:42.20,0.690001") # width=2 text={20-14 90 bright feature like blended with another galaxy}
+circle(3:32:46.161,-27:47:52.25,0.690001") # width=2 text={21-15 90 changing PA and blended but maybe this i is very small}
+circle(3:32:39.723,-27:49:42.53,0.690001") # width=2 text={22-16 90 there is really small i but the galaxy is truncated}
+circle(3:32:33.111,-27:48:23.08,0.690001") # width=2 text={23-17 90 maybe small i}
+circle(3:32:38.096,-27:45:26.83,0.690001") # width=2 text={24-18 80 small i}
+circle(3:32:38.005,-27:48:53.50,0.69") # color=red width=2 text={25 80 small i}
+circle(3:32:46.485,-27:47:44.40,0.69") # color=red width=2 text={26 80 changing PA and spiral signs}
+circle(3:32:40.304,-27:46:22.80,0.69") # color=red width=2 text={27 80 too low resolution to judge, changing PA}
+circle(3:32:38.790,-27:49:09.27,0.690001") # width=2 text={28-19 80 spiral signs but the inclination should be small}
+circle(3:32:33.000,-27:48:18.64,0.69") # color=red width=2 text={29 80 small i and blended}
+circle(3:32:46.544,-27:47:08.88,0.690001") # width=2 text={30-20 70 strong dust contamination or just spiral galaxy with small i}
+circle(3:32:41.014,-27:49:22.56,0.690001") # width=2 text={31-21 70 too low resolution to judge}
+circle(3:32:40.068,-27:49:26.63,0.69") # color=red width=2 text={32 70 too low resolution to judge, spiral signs}
+circle(3:32:41.448,-27:46:52.53,0.69") # color=red width=2 text={33 60 spiral signs and this galaxy blended with a big one}
+circle(3:32:39.938,-27:48:46.43,0.69") # color=red width=2 text={34 60 too low resolution to judge, spiral signs}
+circle(3:32:48.270,-27:47:17.41,0.69") # color=red width=2 text={35 50 crooked perhaps small i and ell=0.643}
+circle(3:32:46.308,-27:46:52.30,0.69") # color=red width=2 text={36 40 thin object with a bright feature}
+circle(3:32:37.027,-27:47:58.16,0.69") # color=red width=2 text={37 40 very faint maybe just blended objects}
+circle(3:32:35.532,-27:48:55.60,0.69") # color=red width=2 text={38 40 too low resolution to judge}
+circle(3:32:41.409,-27:47:59.12,0.69") # color=red width=2 text={39 30 too low resolution to judge spiral or irr dust lane}
+circle(3:32:38.300,-27:46:28.45,0.69") # color=red width=2 text={40 30 even difficult to say how spiral arms looks}
+circle(3:32:31.396,-27:47:13.76,0.690001") # width=2 text={41x25 30 symmetrical but rather small i}
+circle(3:32:36.263,-27:47:53.42,0.69") # color=red width=2 text={42 20 rather blended objects}
+circle(3:32:35.100,-27:48:38.17,0.69") # color=red width=2 text={43 20 too small to judge}
+circle(3:32:33.925,-27:47:49.97,0.69") # color=red width=2 text={44 20 too low resolution to judge, big bulge}
+circle(3:32:30.976,-27:47:38.13,0.69") # color=red width=2 text={45 20 noticeable spiral arms but thin}
+circle(3:32:46.117,-27:47:07.87,0.69") # color=red width=2 text={46 10 thin object with bright feature rather just blended objects}
+circle(3:32:35.524,-27:47:34.38,0.69") # color=red width=2 text={47 10 symmetrical but rather spiral ell=0.668}
+circle(3:32:34.295,-27:46:47.66,0.690001") # width=2 text={48-26 10 low resolution to judge and blended but rather spiral }
+circle(3:32:34.076,-27:47:23.71,0.69") # color=red width=2 text={49 10 too low resolution to judge but rather spiral}
+circle(3:32:32.223,-27:47:32.67,0.69") # color=red width=2 text={50 10 bright core but faint wings: spiral arms or what}
+circle(3:32:36.364,-27:45:43.23,0.690001") # width=2 text={51-27 truncated, maybe interacted, very big bulge or non-edge-on}
+circle(3:32:46.774,-27:47:29.55,0.69") # color=red width=2 text={52 i}
+circle(3:32:39.516,-27:46:04.94,0.690001") # width=2 text={53-28 i}
+circle(3:32:39.513,-27:45:59.90,0.690001") # width=2 text={54x29 i}
+circle(3:32:38.712,-27:47:43.71,0.690001") # width=2 text={55-30 i}
+circle(3:32:35.759,-27:46:54.79,0.690001") # width=2 text={56-31 i}
+circle(3:32:35.620,-27:46:32.83,0.690001") # width=2 text={57-32 i}
+circle(3:32:33.256,-27:47:58.05,0.690001") # width=2 text={58-33 i}
+circle(3:32:33.155,-27:48:21.66,0.690001") # width=2 text={59-34 i}
+circle(3:32:29.939,-27:47:34.68,0.690001") # width=2 text={60-35 i}
+circle(3:32:44.744,-27:47:53.72,1") # color=blue width=2 text={1 1.183}
+circle(3:32:43.174,-27:48:42.33,1") # color=blue width=2 text={2 0.980}
+circle(3:32:41.857,-27:46:51.14,1") # color=blue width=2 text={3 0.754}
+circle(3:32:41.078,-27:48:52.94,1") # color=blue width=2 text={4 0.351}
+circle(3:32:40.761,-27:49:04.25,1") # color=blue width=2 text={5 1.198}
+circle(3:32:39.935,-27:48:06.68,1") # color=blue width=2 text={6 1.198}
+circle(3:32:37.728,-27:47:07.00,1") # color=blue width=2 text={7 0.718}
+circle(3:32:36.897,-27:45:49.67,1") # color=blue width=2 text={8 1.012}
+circle(3:32:36.218,-27:46:56.43,1") # color=blue width=2 text={9 1.071}
+circle(3:32:47.518,-27:47:48.30,1") # color=blue width=2 text={10 0.428}
+circle(3:32:44.771,-27:46:55.20,1") # color=blue width=2 text={11 0.951}
+circle(3:32:46.009,-27:47:06.24,1") # color=blue width=2 text={12 1.137}
+circle(3:32:44.345,-27:46:38.86,1") # color=blue width=2 text={13 0.506}
+circle(3:32:41.507,-27:46:42.30,1") # color=blue width=2 text={14 1.133}
+circle(3:32:46.137,-27:47:52.08,1") # color=blue width=2 text={15 1.148}
+circle(3:32:39.724,-27:49:42.54,1") # color=blue width=2 text={16 0.508}
+circle(3:32:33.084,-27:48:23.16,1") # color=blue width=2 text={17 1.081}
+circle(3:32:38.107,-27:45:26.75,1") # color=blue width=2 text={18 1.262}
+circle(3:32:38.805,-27:49:09.19,1") # color=blue width=2 text={19 0.685}
+circle(3:32:46.541,-27:47:08.90,1") # color=blue width=2 text={20 0.123}
+circle(3:32:41.008,-27:49:22.67,1") # color=blue width=2 text={21 1.010}
+circle(3:32:40.104,-27:49:27.68,1") # color=blue width=2 text={22 1.192}
+circle(3:32:41.428,-27:46:51.60,1") # color=blue width=2 text={23 0.664}
+circle(3:32:38.388,-27:46:29.35,1") # color=blue width=2 text={24 1.084}
+circle(3:32:31.398,-27:47:13.33,1") # color=blue width=2 text={25 0.948}
+circle(3:32:34.285,-27:46:47.67,1") # color=blue width=2 text={26 0.144}
+circle(3:32:36.367,-27:45:43.28,1") # color=blue width=2 text={27 0.399}
+circle(3:32:39.515,-27:46:05.01,1") # color=blue width=2 text={28 1.057}
+circle(3:32:39.538,-27:45:59.57,1") # color=blue width=2 text={29 1.189}
+circle(3:32:38.707,-27:47:44.05,1") # color=blue width=2 text={30 0.212}
+circle(3:32:35.763,-27:46:54.98,1") # color=blue width=2 text={31 1.226}
+circle(3:32:35.611,-27:46:32.79,1") # color=blue width=2 text={32 0.502}
+circle(3:32:33.235,-27:47:57.89,1") # color=blue width=2 text={33 0.978}
+circle(3:32:33.146,-27:48:21.65,1") # color=blue width=2 text={34 0.795}
+circle(3:32:29.928,-27:47:34.59,1") # color=blue width=2 text={35 0.974}

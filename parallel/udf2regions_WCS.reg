@@ -1,0 +1,92 @@
+# Region file format: DS9 version 4.1
+global color=green dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
+fk5
+circle(3:33:05.783,-27:49:57.35,0.81") # color=yellow width=2 text={ok}
+circle(3:33:04.992,-27:49:32.20,0.81") # color=yellow width=2 text={ok}
+circle(3:33:04.148,-27:50:05.32,0.81") # color=yellow width=2 text={ok}
+circle(3:33:02.000,-27:50:34.95,0.81") # color=yellow width=2 text={ok}
+circle(3:33:01.702,-27:52:18.31,0.81") # color=yellow width=2 text={ok}
+circle(3:33:00.960,-27:50:04.35,0.81") # color=yellow width=2 text={ok}
+circle(3:33:00.946,-27:51:22.28,0.81") # color=yellow width=2 text={ok}
+circle(3:32:56.960,-27:49:18.20,0.81") # color=yellow width=2 text={ok}
+circle(3:32:56.442,-27:49:22.81,0.81") # color=yellow width=2 text={ok}
+circle(3:32:55.795,-27:50:59.02,0.81") # color=yellow width=2 text={ok}
+circle(3:32:54.292,-27:49:34.16,0.81") # color=yellow width=2 text={ok}
+circle(3:32:53.885,-27:50:07.15,0.81") # color=yellow width=2 text={ok}
+circle(3:32:53.273,-27:50:10.86,0.81") # color=yellow width=2 text={ok}
+circle(3:32:53.249,-27:52:15.13,0.81") # color=yellow width=2 text={ok}
+circle(3:32:53.016,-27:51:04.78,0.81") # color=yellow width=2 text={ok}
+circle(3:33:05.190,-27:50:02.45,0.81") # color=yellow width=2 text={ok but blended with a bright galaxy. Small i}
+circle(3:33:02.659,-27:51:46.45,0.81") # color=yellow width=2 text={ok but crooked}
+circle(3:33:02.659,-27:52:01.90,0.81") # color=yellow width=2 text={ok but blended }
+circle(3:33:01.690,-27:51:10.55,0.81") # color=yellow width=2 text={ok but faint and blended with tiny object}
+circle(3:33:00.642,-27:50:13.60,0.81") # color=yellow width=2 text={ok but maybe blended or just HII}
+circle(3:32:59.831,-27:50:53.19,0.81") # color=yellow width=2 text={ok but maybe two or three lucky blended objects}
+circle(3:32:59.068,-27:49:49.44,0.81") # color=yellow width=2 text={ok but faint and blended}
+circle(3:32:58.932,-27:49:47.69,0.81") # color=yellow width=2 text={ok but crooked mid-line}
+circle(3:32:55.974,-27:51:00.91,0.81") # color=yellow width=2 text={ok but blended}
+circle(3:32:55.749,-27:50:02.73,0.81") # color=yellow width=2 text={ok but blended and maybe interacting}
+circle(3:32:55.657,-27:50:07.60,0.81") # color=yellow width=2 text={ok but blended or bright feature}
+circle(3:32:52.861,-27:51:44.38,0.81") # color=yellow width=2 text={ok but blended}
+circle(3:33:02.561,-27:50:48.38,0.81") # color=yellow width=2 text={90 small i}
+circle(3:33:02.203,-27:52:01.46,0.81") # color=yellow width=2 text={90 small i}
+circle(3:33:00.508,-27:49:27.96,0.81") # color=yellow width=2 text={90 small i}
+circle(3:32:59.742,-27:51:32.52,0.81") # color=yellow width=2 text={90 small i}
+circle(3:32:59.350,-27:49:46.40,0.81") # color=yellow width=2 text={90 bright feature and spiral-signs}
+circle(3:33:00.018,-27:51:20.12,0.81") # color=yellow width=2 text={90 rather ok but really small i and ell=0.67}
+circle(3:33:05.712,-27:50:56.29,0.81") # color=yellow width=2 text={90 it is a part of real edge-on galaxy}
+circle(3:32:58.668,-27:50:17.75,0.81") # color=yellow width=2 text={80 small i and INTERESTING}
+circle(3:33:06.237,-27:51:16.83,0.81") # color=yellow width=2 text={80 dust and changing PA }
+circle(3:33:01.045,-27:49:06.81,0.81") # color=yellow width=2 text={80 maybe ok but faint and blended (with 3647 7668)}
+circle(3:32:54.754,-27:51:12.91,0.81") # color=yellow width=2 text={80 maybe it is a faint edge-on galaxy but maybe spiral with small i}
+circle(3:32:54.744,-27:52:06.24,0.81") # color=yellow width=2 text={80 spiral signs }
+circle(3:32:53.681,-27:50:07.35,0.81") # color=yellow width=2 text={80 irr shape maybe blended but thin}
+circle(3:33:06.661,-27:49:27.72,0.81") # color=yellow width=2 text={70 irr shape and faint}
+circle(3:32:57.163,-27:51:54.72,0.81") # color=yellow width=2 text={70 non-axisymmetric}
+circle(3:32:56.626,-27:51:32.33,0.81") # color=yellow width=2 text={70 faint and blended like this is a part of a spiral arm}
+circle(3:32:56.151,-27:51:55.39,0.81") # color=yellow width=2 text={70 wide ellipse}
+circle(3:32:55.608,-27:52:31.19,0.81") # color=yellow width=2 text={70 too faint and small to judge}
+circle(3:32:53.012,-27:49:51.93,0.81") # color=yellow width=2 text={70 too low resolution to judge}
+circle(3:32:52.344,-27:52:41.20,0.81") # color=yellow width=2 text={70 maybe spiral arms or edge-on but blended}
+circle(3:33:05.717,-27:50:07.61,0.81") # color=yellow width=2 text={60 very faint}
+circle(3:33:05.717,-27:51:11.51,0.81") # color=yellow width=2 text={60 looks like there is a small i and HII}
+circle(3:32:54.278,-27:51:32.43,0.81") # color=yellow width=2 text={60 faint perhaps spiral with small i}
+circle(3:32:58.977,-27:51:27.63,0.81") # color=yellow width=2 text={50 not enough resolution to judge}
+circle(3:32:57.052,-27:51:44.65,0.81") # color=yellow width=2 text={50 changing PA}
+circle(3:32:58.588,-27:51:16.24,0.81") # color=yellow width=2 text={40 spiral signs}
+circle(3:33:06.141,-27:51:30.14,0.81") # color=yellow width=2 text={40 maybe blended with another very faint galaxy}
+circle(3:32:54.200,-27:50:25.38,0.81") # color=yellow width=2 text={40 two lucky galaxies or edge-on}
+circle(3:33:04.626,-27:52:07.48,0.81") # color=yellow width=2 text={30 small i or two blended objects and noticeable spiral arms}
+circle(3:33:03.255,-27:51:52.69,0.81") # color=yellow width=2 text={30 small and looks like two blended objects}
+circle(3:32:55.712,-27:50:01.45,0.81") # color=yellow width=2 text={30 faint edge-on but blended or smth different}
+circle(3:32:53.715,-27:49:42.07,0.81") # color=yellow width=2 text={30 spiral signs}
+circle(3:32:52.034,-27:49:33.44,0.81") # color=yellow width=2 text={30 faint wide ears}
+circle(3:32:59.081,-27:50:26.79,0.81") # color=yellow width=2 text={20 bright featire and wide ellipse}
+circle(3:33:06.344,-27:49:40.04,0.81") # color=yellow width=2 text={20 faint and looks like blended with a very faint galaxy}
+circle(3:32:57.787,-27:50:45.45,0.81") # color=yellow width=2 text={20 too small to judge}
+circle(3:33:02.839,-27:52:01.80,0.81") # color=yellow width=2 text={10 rather no. blended objects or just no}
+circle(3:33:00.118,-27:50:57.51,0.81") # color=yellow width=2 text={10 rather just spiral with bright HII but also looks like edge-on blended}
+circle(3:32:59.768,-27:50:46.84,0.81") # color=yellow width=2 text={10 irr or even interacting and there is a big halo}
+circle(3:32:56.079,-27:52:05.32,0.81") # color=yellow width=2 text={10 too low resolution to prove that this is a spiral galaxy}
+circle(3:32:59.679,-27:50:30.36,0.81") # color=yellow width=2 text={a galaxy with a big halo but difr. spikes make this galaxy edge-on like}
+circle(3:33:06.894,-27:49:43.70,0.81") # color=yellow width=2 text={critically blended or just a spiral arm}
+circle(3:33:01.007,-27:50:04.49,0.81") # color=yellow width=2 text={this is a part of an edge-on galaxy}
+circle(3:33:07.148,-27:51:42.35,0.81") # color=yellow width=2 text={i}
+circle(3:33:06.973,-27:52:09.71,0.81") # color=yellow width=2 text={i}
+circle(3:33:06.408,-27:50:18.79,0.81") # color=yellow width=2 text={i}
+circle(3:33:05.598,-27:50:02.20,0.81") # color=yellow width=2 text={i}
+circle(3:33:04.503,-27:52:10.36,0.81") # color=yellow width=2 text={i}
+circle(3:33:03.225,-27:50:00.89,0.81") # color=yellow width=2 text={i}
+circle(3:33:02.025,-27:49:40.69,0.81") # color=yellow width=2 text={i}
+circle(3:33:00.809,-27:49:13.53,0.81") # color=yellow width=2 text={i}
+circle(3:33:00.716,-27:49:37.75,0.81") # color=yellow width=2 text={i}
+circle(3:33:00.416,-27:50:45.81,0.81") # color=yellow width=2 text={i}
+circle(3:32:58.951,-27:51:41.62,0.81") # color=yellow width=2 text={i}
+circle(3:32:57.822,-27:49:45.83,0.81") # color=yellow width=2 text={i}
+circle(3:32:57.239,-27:51:34.64,0.81") # color=yellow width=2 text={i}
+circle(3:32:55.405,-27:52:24.23,0.81") # color=yellow width=2 text={i}
+circle(3:32:53.334,-27:49:37.99,0.81") # color=yellow width=2 text={i}
+circle(3:32:53.255,-27:51:21.16,0.81") # color=yellow width=2 text={i}
+circle(3:32:52.363,-27:51:46.85,0.81") # color=yellow width=2 text={i}
+circle(3:32:52.322,-27:50:51.92,0.81") # color=yellow width=2 text={i}
+circle(3:32:52.164,-27:52:06.62,0.81") # color=yellow width=2 text={i}

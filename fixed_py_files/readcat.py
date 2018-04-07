@@ -9,7 +9,7 @@ image=sys.argv[1]
 
 # xell хранит значение параметра эллиптичности.
 # Объекты с ellipticity<xell не интересуют/не сохраняются
-xell=0.65
+xell=0.60
 catalog=open(image+'field.cat','r')
 # p хранит имена параметров(X, Y, A, B, APER и т.д.)
 p=[]
